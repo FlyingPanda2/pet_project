@@ -7,6 +7,7 @@ import org.openqa.selenium.Keys;
 
 import java.util.*;
 
+import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
@@ -99,8 +100,9 @@ public class RegisterPage {
     }
 
     public void fillCity(String cityExample){
+        city.shouldBe(visible);
         city.click();
-        $(byText(cityExample)).click();
+        $(byText(cityExample)).shouldBe(visible).click();
     }
 
     public void submitClick(){
@@ -108,6 +110,7 @@ public class RegisterPage {
     }
 
     public String getResult(){
+        $(".table").shouldBe(visible);
         return $(".table-responsive").getText();
     }
 }
