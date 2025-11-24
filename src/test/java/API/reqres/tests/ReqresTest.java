@@ -1,13 +1,13 @@
-package API.tests;
+package API.reqres.tests;
 
-import API.login.Login;
-import API.login.SuccessLogin;
-import API.login.UnSuccessLogin;
-import API.register.Register;
-import API.register.SuccessReg;
-import API.register.UnSuccessReg;
+import API.reqres.login.Login;
+import API.reqres.login.SuccessLogin;
+import API.reqres.login.UnSuccessLogin;
+import API.reqres.register.Register;
+import API.reqres.register.SuccessReg;
+import API.reqres.register.UnSuccessReg;
 import API.spec.Specifications;
-import API.user.UserData;
+import API.reqres.user.UserData;
 import io.restassured.http.ContentType;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

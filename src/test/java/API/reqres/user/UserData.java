@@ -1,4 +1,4 @@
-package API.user;
+package API.reqres.user;
 
 public class UserData{
     private Integer id;

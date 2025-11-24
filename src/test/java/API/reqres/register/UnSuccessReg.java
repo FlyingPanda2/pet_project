@@ -1,4 +1,4 @@
-package API.register;
+package API.reqres.register;
 
 public class UnSuccessReg {
     private String error;

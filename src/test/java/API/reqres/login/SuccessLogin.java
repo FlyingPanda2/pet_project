@@ -1,4 +1,4 @@
-package API.login;
+package API.reqres.login;
 
 public class SuccessLogin {
     private String token;

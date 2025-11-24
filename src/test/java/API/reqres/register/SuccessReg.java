@@ -1,4 +1,4 @@
-package API.register;
+package API.reqres.register;
 
 public class SuccessReg {
     private Integer id;

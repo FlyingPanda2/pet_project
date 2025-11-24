@@ -1,4 +1,4 @@
-package API.register;
+package API.reqres.register;
 
 public class Register {
     private String email;
